@@ -1,0 +1,39 @@
+*{padding: 0;margin: 0;}
+body {
+    background:orange;
+    color:#333;
+}
+
+#root {
+    padding: 10px; 
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    padding: 10px;
+    font-size: 14px;
+}
+h3:hover {
+    background:#fff;
+    color:orange;
+}
+.item {
+    margin: 10px;
+    padding: 10px;
+}
+.item__show {
+    background:#fff;
+    color:orange;
+}
+.item__show .list{
+    display: block;
+}
+
+.list {
+    margin-left: 60px;
+    display: none;
+    transition: all .3s;
+}
