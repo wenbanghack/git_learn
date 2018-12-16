@@ -1,6 +1,6 @@
 let root = document.querySelector("#root");
 let itemTitle = document.querySelectorAll(".item");
-
+//this is a item click event
 itemTitle.forEach((item)=>{
     item.addEventListener("click", function(e){
         console.log("123");
